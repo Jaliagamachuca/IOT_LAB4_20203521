@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/locationFragment">
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.l3_julioaliaga.LocationFragment"
+        android:label="Locations"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/pronosticoFragment"
+        android:name="com.example.l3_julioaliaga.PronosticoFragment"
+        android:label="Pronóstico"
+        tools:layout="@layout/fragment_pronostico" />
+
+    <fragment
+        android:id="@+id/futuroFragment"
+        android:name="com.example.l3_julioaliaga.FuturoFragment"
+        android:label="Futuro"
+        tools:layout="@layout/fragment_futuro" />
+</navigation>
